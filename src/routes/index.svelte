@@ -3,7 +3,8 @@
 </script>
 
 <script>
-	import Counter from '$lib/Counter.svelte';
+	import Counter from '$lib/Counter.svelte'
+	import Login from '$lib/Login.svelte';
 </script>
 
 <svelte:head>
@@ -13,10 +14,7 @@
 
 <section>
 	<h1>How does it work? ></h1>
-
-	<h2>
-		<strong>LOGIN / SIGN UP</strong>
-	</h2>
+<Login />
 	<h3>Sign ups are currently: INVITE ONLY</h3>
 	<Counter />
 </section>
