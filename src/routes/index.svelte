@@ -12,8 +12,7 @@
 </svelte:head>
 
 <section>
-	<h1>Welcome</h1>
-	<h3>to learn more about ROBlocks</h3>
+	<h1>How does it work? ></h1>
 
 	<h2>
 		<strong>LOGIN / SIGN UP</strong>
