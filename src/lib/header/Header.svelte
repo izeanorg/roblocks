@@ -5,7 +5,7 @@
 <header>
 	<div class="corner">
 		<a href="/">
-		ROBlocks
+		<img src = "/logo.svg" />
 		</a>
 	</div>
 
