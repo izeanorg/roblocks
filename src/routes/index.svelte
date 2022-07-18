@@ -17,9 +17,6 @@
 <h3>a Flex bot</h3>
 <Login />
 </section>
-<section>
-<h2>HOW IT WORKS ></h2>
-</section>
 
 <style>
 	section {
