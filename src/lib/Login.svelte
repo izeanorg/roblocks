@@ -4,7 +4,7 @@
   </label>
   <input>
     <button>GO</button>
-    <h3>SIGN UPS ARE CURRENTLY<br />LIMITED TO INVITE ONLY.</h3>
+    <h3>CURRENTLY LIMITED TO INVITE ONLY</h3>
 </form>
 <style>
 input {
