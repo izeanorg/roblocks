@@ -2,13 +2,8 @@
 	import { page } from '$app/stores';
 </script>
 
-<header>
-	<div class="corner">
-		<a href="/">
-		<img src = "/logo.svg" />
-		</a>
-	</div>
 
+<header>
 	<nav>
 		<ul>
 			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
@@ -27,7 +22,7 @@
 
 <style>
 	header {
-		display: flex;
+		display:center;
 		justify-content: space-between;
 	}
 

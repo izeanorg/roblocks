@@ -1,12 +1,26 @@
-<h1>LOGIN</h1>
 <form>
-<label><h3>EMAIL</h3></label>
-<input>
-<button>GO<button/>
+  <label>
+    <h3>EMAIL LOGIN / SIGN UP</h3>
+  </label>
+  <input>
+    <button>GO</button>
+    <h3>SIGN UPS ARE CURRENTLY<br />LIMITED TO INVITE ONLY.</h3>
 </form>
-
 <style>
+input {
+  display:flex;
+  flex-direction:column;
+  flex:1;
+}
 label {
+  display: flex;
+  flex: 1;
   color: #ffffff;
+}
+button {
+  display:flex;
+  flex-direction:column;
+  flex:1;
+  width:100%;
 }
 </style>

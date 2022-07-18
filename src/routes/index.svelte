@@ -13,10 +13,12 @@
 </svelte:head>
 
 <section>
-	<h1>How does it work? ></h1>
+<img src="src/lib/header/roblocks-logo.svg" width=200 height=auto/>
+<h3>a Flex bot</h3>
 <Login />
-	<h3>Sign ups are currently: INVITE ONLY</h3>
-	<Counter />
+</section>
+<section>
+<h2>HOW IT WORKS ></h2>
 </section>
 
 <style>
@@ -27,6 +29,7 @@
 		align-items: center;
 		flex: 1;
 	}
+
 
 	h1 {
 		width: 100%;

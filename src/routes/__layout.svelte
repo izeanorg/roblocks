@@ -10,7 +10,7 @@
 </main>
 
 <footer>
-	<p>copyright 2022 Flex Block Bot</p>
+	<h2>@2022 ROBlocks</h2>
 </footer>
 
 <style>
