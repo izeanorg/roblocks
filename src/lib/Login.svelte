@@ -22,7 +22,5 @@ button {
   flex-direction:column;
   flex:1;
   width:100%;
-  background-color:#000000;
-  color:#ffffff;
 }
 </style>

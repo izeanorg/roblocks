@@ -96,6 +96,11 @@ button {
 	font-size: inherit;
 	font-family: inherit;
 }
+button {
+	background-color: var(--accent-color);
+	border: none;
+	margin-top: 8px;;
+}
 
 button:focus:not(:focus-visible) {
 	outline: none;
