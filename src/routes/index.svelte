@@ -5,6 +5,7 @@
 <script>
 	import Counter from '$lib/Counter.svelte'
 	import Login from '$lib/Login.svelte';
+	import time from '$lib/Time.svelte';
 </script>
 
 <svelte:head>
