@@ -7,6 +7,14 @@
   $: minutes = time.getMinutes();
   $: seconds = time.getSeconds();
 
-  onMount(() => {<->});
+onMount(() => {
+		const interval = setInterval(() => {
+			time = new Date();
+		}, 1000);
+
+		return () => {
+			clearInterval(interval);
+		};
+	});
 
 </script>
