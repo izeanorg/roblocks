@@ -18,3 +18,5 @@ onMount(() => {
 	});
 
 </script>
+
+{time}
