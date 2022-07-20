@@ -14,12 +14,12 @@
 			<li class:active={$page.url.pathname === '/todos'}>
 				<a sveltekit:prefetch href="/todos">Blocks</a>
 			</li>
-			<li><Time/></li>
 			<!-- USE FOR STATS PAGE <li class:active={$page.url.pathname === '/stats'}>
 							<a sveltekit:prefetch href="/stats">Stats</a>
 </li> -->
 		</ul>
 	</nav>
+<h3><Time /></h3>
 </header>
 
 <style>
@@ -63,7 +63,7 @@
 		fill: var(--background);
 	}
 
-	ul {
+	ul, h3 {
 		position: relative;
 		padding: 0;
 		margin: 0;
