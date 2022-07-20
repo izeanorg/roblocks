@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	import time from '$lib/Time.svelte';
 </script>
 
 
@@ -13,6 +14,7 @@
 			<li class:active={$page.url.pathname === '/todos'}>
 				<a sveltekit:prefetch href="/todos">Blocks</a>
 			</li>
+			{time}
 			<!-- USE FOR STATS PAGE <li class:active={$page.url.pathname === '/stats'}>
 							<a sveltekit:prefetch href="/stats">Stats</a>
 </li> -->
