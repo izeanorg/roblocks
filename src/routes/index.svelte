@@ -5,14 +5,14 @@
 <script>
 	import Counter from '$lib/Counter.svelte'
 	import Login from '$lib/Login.svelte';
-	import time from '$lib/Time.svelte';
+	import Time from '$lib/Time.svelte';
 </script>
 
 <svelte:head>
 	<title>Home - Login/Sign Up</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
-
+<p><Time /></p>
 <section>
 <img src="src/lib/header/roblocks-logo.svg" width=200 height=auto/>
 <h3>a Flex bot</h3>
